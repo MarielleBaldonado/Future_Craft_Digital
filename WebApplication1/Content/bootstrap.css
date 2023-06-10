@@ -23175,11 +23175,11 @@ textarea.form-control-lg {
     content: "\ee9d"
 }
 
-.bxl-linkedin:before {
+.bxl-youtube:before {
     content: "\ee9e"
 }
 
-.bxl-linkedin-square:before {
+.bxl-youtube-square:before {
     content: "\ee9f"
 }
 
@@ -28780,12 +28780,12 @@ label {
                         color: #fff
                     }
 
-                .products-details .products-share-social ul li a.linkedin {
+                .products-details .products-share-social ul li a.youtube {
                     border-color: #0077b5;
                     color: #0077b5
                 }
 
-                    .products-details .products-share-social ul li a.linkedin:hover {
+                    .products-details .products-share-social ul li a.youtube:hover {
                         background: #0077b5;
                         color: #fff
                     }
@@ -30684,7 +30684,7 @@ label {
                     background-color: #1da1f2
                 }
 
-                .coming-soon-area .social-list li a.linkedin {
+                .coming-soon-area .social-list li a.youtube {
                     background-color: #0077b5
                 }
 
@@ -33831,12 +33831,12 @@ label {
                     color: #fff
                 }
 
-            .single-footer-widget ul.social-links li a.linkedin {
+            .single-footer-widget ul.social-links li a.youtube {
                 border-color: #0077b5;
                 color: #0077b5
             }
 
-                .single-footer-widget ul.social-links li a.linkedin:hover {
+                .single-footer-widget ul.social-links li a.youtube:hover {
                     background: #0077b5;
                     color: #fff
                 }
