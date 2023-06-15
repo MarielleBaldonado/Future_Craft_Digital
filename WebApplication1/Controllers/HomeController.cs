@@ -26,5 +26,25 @@ namespace WebApplication1.Controllers
 
             return View();
         }
+
+        public ActionResult Software()
+        {
+            return View();
+        }
+
+        public ActionResult Windows()
+        {
+            return View();
+        }
+
+        public ActionResult MicrosoftOffice()
+        {
+            return View();
+        }
+
+        public ActionResult Cloud()
+        {
+            return View();
+        }
     }
 }

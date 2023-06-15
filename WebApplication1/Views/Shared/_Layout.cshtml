@@ -3,8 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - Future Craft Digital</title>
+    <title>@ViewBag.Title | Future Craft Digital</title>
     <!-- CSS -->
+    <link rel="stylesheet" href="../Content/bootstrap.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 
@@ -83,7 +84,7 @@
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
                                             <a class="nav-link" href="/it-startup/">
-                                                Markerting
+                                                Marketing
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                                     <polyline points="6 9 12 15 18 9"></polyline>
                                                 </svg>
@@ -124,7 +125,7 @@
                                             <a class="nav-link" href="/about-1/">Gym Equipment</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/about-2/">
+                                            <a class="nav-link" href="@Url.Action("Software", "Home")">
                                                 Software
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                                     <polyline points="6 9 12 15 18 9"></polyline>
@@ -132,16 +133,16 @@
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li class="nav-item">
-                                                    <a class="nav-link" href="/features/">Windows</a>
+                                                    <a class="nav-link" href="@Url.Action("Windows", "Home")">Microsoft Windows</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" href="/feature-details/">Microsoft</a>
+                                                    <a class="nav-link" href="@Url.Action("MicrosoftOffice", "Home")">Microsoft Office</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" href="/feature-details/">Antivirus</a>
+                                                    <a class="nav-link" href="@Url.Action("Antivirus", "Home")">Antivirus</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" href="/feature-details/">Cloud</a>
+                                                    <a class="nav-link" href="@Url.Action("Cloud", "Home")">Cloud</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -248,7 +249,7 @@
     </div>
 
     <!--Body-->
-    <div class="container body-content">
+    <div>
         @RenderBody()
     </div>
     
