@@ -183,3 +183,20 @@ Email
     padding: 15px 40px;
     text-transform: uppercase;
 }
+
+/******************
+ MEDIA QUERY
+******************/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .others-option {
+        display: flex;
+    }
+
+    .startp-nav nav .navbar-nav .nav-item a {
+        font-size: 10px;
+    }
+
+    .navbar-expand-md .navbar-nav {
+        align-items: center;
+    }
+}
